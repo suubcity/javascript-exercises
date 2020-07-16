@@ -3,6 +3,6 @@ const removeFromArray = function(array, ...args) {
         array = array.filter(value => value !==  args[i]);
     }
     return array;
-}
+};
 
-module.exports = removeFromArray
+module.exports =  removeFromArray;
